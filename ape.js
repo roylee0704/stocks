@@ -10,4 +10,4 @@ const lines = data.split('\n');
 const totalPe = lines.reduce((sum, line) => sum + +line.split('\t')[3], 0);
 const averagePe = totalPe / lines.length;
 
-console.log(`Average PE for ${COMPANY}: ${averagePe}`);
+console.log(`Average price/earning ratio for ${COMPANY}: ${averagePe}`);
